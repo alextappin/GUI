@@ -1,7 +1,9 @@
-﻿//Alexander Tappin
+﻿//*****************************
+//Alexander Tappin
 //Gui Spring 2015
 //Calculator in Windows Forms
 //April 12, 2015
+//******************************
 
 using System;
 using System.Collections.Generic;
