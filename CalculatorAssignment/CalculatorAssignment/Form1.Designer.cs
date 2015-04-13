@@ -52,19 +52,20 @@
             this.SquareRootButton = new System.Windows.Forms.Button();
             this.ClearScreenButton = new System.Windows.Forms.Button();
             this.ReciprocalsButton = new System.Windows.Forms.Button();
-            this.PercentageButton = new System.Windows.Forms.Button();
             this.ClearEverythingButton = new System.Windows.Forms.Button();
             this.BackspaceButton = new System.Windows.Forms.Button();
             this.textResult = new System.Windows.Forms.TextBox();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.editToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.viewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.copyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pasteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.viewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.standardToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.digitGroupingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ParenthButton = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -76,7 +77,7 @@
             this.button1.TabIndex = 0;
             this.button1.Text = "MC";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.Click += new System.EventHandler(this.clearMemory);
             // 
             // number0
             // 
@@ -87,6 +88,8 @@
             this.number0.Text = "0";
             this.number0.UseVisualStyleBackColor = true;
             this.number0.Click += new System.EventHandler(this.number_Click);
+            this.number0.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.keyboardPressText);
+            this.number0.KeyUp += new System.Windows.Forms.KeyEventHandler(this.keyboardPressNum);
             // 
             // number1
             // 
@@ -97,6 +100,8 @@
             this.number1.Text = "1";
             this.number1.UseVisualStyleBackColor = true;
             this.number1.Click += new System.EventHandler(this.number_Click);
+            this.number1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.keyboardPressText);
+            this.number1.KeyUp += new System.Windows.Forms.KeyEventHandler(this.keyboardPressNum);
             // 
             // MPlusButton
             // 
@@ -106,6 +111,7 @@
             this.MPlusButton.TabIndex = 3;
             this.MPlusButton.Text = "M+";
             this.MPlusButton.UseVisualStyleBackColor = true;
+            this.MPlusButton.Click += new System.EventHandler(this.memoryPlus);
             // 
             // MSButton
             // 
@@ -115,6 +121,7 @@
             this.MSButton.TabIndex = 4;
             this.MSButton.Text = "MS";
             this.MSButton.UseVisualStyleBackColor = true;
+            this.MSButton.Click += new System.EventHandler(this.storeExpression);
             // 
             // number5
             // 
@@ -125,6 +132,8 @@
             this.number5.Text = "5";
             this.number5.UseVisualStyleBackColor = true;
             this.number5.Click += new System.EventHandler(this.number_Click);
+            this.number5.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.keyboardPressText);
+            this.number5.KeyUp += new System.Windows.Forms.KeyEventHandler(this.keyboardPressNum);
             // 
             // number4
             // 
@@ -135,6 +144,8 @@
             this.number4.Text = "4";
             this.number4.UseVisualStyleBackColor = true;
             this.number4.Click += new System.EventHandler(this.number_Click);
+            this.number4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.keyboardPressText);
+            this.number4.KeyUp += new System.Windows.Forms.KeyEventHandler(this.keyboardPressNum);
             // 
             // MRButton
             // 
@@ -144,6 +155,7 @@
             this.MRButton.TabIndex = 7;
             this.MRButton.Text = "MR";
             this.MRButton.UseVisualStyleBackColor = true;
+            this.MRButton.Click += new System.EventHandler(this.retrieveMemory);
             // 
             // number6
             // 
@@ -154,6 +166,8 @@
             this.number6.Text = "6";
             this.number6.UseVisualStyleBackColor = true;
             this.number6.Click += new System.EventHandler(this.number_Click);
+            this.number6.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.keyboardPressText);
+            this.number6.KeyUp += new System.Windows.Forms.KeyEventHandler(this.keyboardPressNum);
             // 
             // number9
             // 
@@ -164,6 +178,8 @@
             this.number9.Text = "9";
             this.number9.UseVisualStyleBackColor = true;
             this.number9.Click += new System.EventHandler(this.number_Click);
+            this.number9.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.keyboardPressText);
+            this.number9.KeyUp += new System.Windows.Forms.KeyEventHandler(this.keyboardPressNum);
             // 
             // number8
             // 
@@ -174,6 +190,8 @@
             this.number8.Text = "8";
             this.number8.UseVisualStyleBackColor = true;
             this.number8.Click += new System.EventHandler(this.number_Click);
+            this.number8.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.keyboardPressText);
+            this.number8.KeyUp += new System.Windows.Forms.KeyEventHandler(this.keyboardPressNum);
             // 
             // number7
             // 
@@ -184,6 +202,8 @@
             this.number7.Text = "7";
             this.number7.UseVisualStyleBackColor = true;
             this.number7.Click += new System.EventHandler(this.number_Click);
+            this.number7.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.keyboardPressText);
+            this.number7.KeyUp += new System.Windows.Forms.KeyEventHandler(this.keyboardPressNum);
             // 
             // number2
             // 
@@ -194,6 +214,8 @@
             this.number2.Text = "2";
             this.number2.UseVisualStyleBackColor = true;
             this.number2.Click += new System.EventHandler(this.number_Click);
+            this.number2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.keyboardPressText);
+            this.number2.KeyUp += new System.Windows.Forms.KeyEventHandler(this.keyboardPressNum);
             // 
             // number3
             // 
@@ -204,6 +226,8 @@
             this.number3.Text = "3";
             this.number3.UseVisualStyleBackColor = true;
             this.number3.Click += new System.EventHandler(this.number_Click);
+            this.number3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.keyboardPressText);
+            this.number3.KeyUp += new System.Windows.Forms.KeyEventHandler(this.keyboardPressNum);
             // 
             // plusOrMinus
             // 
@@ -224,6 +248,8 @@
             this.decimalButton.Text = ".";
             this.decimalButton.UseVisualStyleBackColor = true;
             this.decimalButton.Click += new System.EventHandler(this.number_Click);
+            this.decimalButton.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.keyboardPressText);
+            this.decimalButton.KeyUp += new System.Windows.Forms.KeyEventHandler(this.keyboardPressNum);
             // 
             // EqualsButton
             // 
@@ -244,6 +270,8 @@
             this.PlusButton.Text = "+";
             this.PlusButton.UseVisualStyleBackColor = true;
             this.PlusButton.Click += new System.EventHandler(this.number_Click);
+            this.PlusButton.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.keyboardPressText);
+            this.PlusButton.KeyUp += new System.Windows.Forms.KeyEventHandler(this.keyboardPressNum);
             // 
             // MinusButton
             // 
@@ -254,6 +282,8 @@
             this.MinusButton.Text = "-";
             this.MinusButton.UseVisualStyleBackColor = true;
             this.MinusButton.Click += new System.EventHandler(this.number_Click);
+            this.MinusButton.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.keyboardPressText);
+            this.MinusButton.KeyUp += new System.Windows.Forms.KeyEventHandler(this.keyboardPressNum);
             // 
             // MultiplyButton
             // 
@@ -264,6 +294,8 @@
             this.MultiplyButton.Text = "*";
             this.MultiplyButton.UseVisualStyleBackColor = true;
             this.MultiplyButton.Click += new System.EventHandler(this.number_Click);
+            this.MultiplyButton.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.keyboardPressText);
+            this.MultiplyButton.KeyUp += new System.Windows.Forms.KeyEventHandler(this.keyboardPressNum);
             // 
             // divideButton
             // 
@@ -274,6 +306,8 @@
             this.divideButton.Text = "/";
             this.divideButton.UseVisualStyleBackColor = true;
             this.divideButton.Click += new System.EventHandler(this.number_Click);
+            this.divideButton.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.keyboardPressText);
+            this.divideButton.KeyUp += new System.Windows.Forms.KeyEventHandler(this.keyboardPressNum);
             // 
             // SquareRootButton
             // 
@@ -283,6 +317,7 @@
             this.SquareRootButton.TabIndex = 21;
             this.SquareRootButton.Text = "sqrt";
             this.SquareRootButton.UseVisualStyleBackColor = true;
+            this.SquareRootButton.Click += new System.EventHandler(this.sqrtButton);
             // 
             // ClearScreenButton
             // 
@@ -303,15 +338,6 @@
             this.ReciprocalsButton.Text = "1/x";
             this.ReciprocalsButton.UseVisualStyleBackColor = true;
             this.ReciprocalsButton.Click += new System.EventHandler(this.inverseClick);
-            // 
-            // PercentageButton
-            // 
-            this.PercentageButton.Location = new System.Drawing.Point(234, 141);
-            this.PercentageButton.Name = "PercentageButton";
-            this.PercentageButton.Size = new System.Drawing.Size(38, 34);
-            this.PercentageButton.TabIndex = 25;
-            this.PercentageButton.Text = "%";
-            this.PercentageButton.UseVisualStyleBackColor = true;
             // 
             // ClearEverythingButton
             // 
@@ -363,6 +389,20 @@
             this.editToolStripMenuItem.Size = new System.Drawing.Size(39, 20);
             this.editToolStripMenuItem.Text = "Edit";
             // 
+            // copyToolStripMenuItem
+            // 
+            this.copyToolStripMenuItem.Name = "copyToolStripMenuItem";
+            this.copyToolStripMenuItem.Size = new System.Drawing.Size(102, 22);
+            this.copyToolStripMenuItem.Text = "Copy";
+            this.copyToolStripMenuItem.Click += new System.EventHandler(this.copyToolStripMenuItem_Click);
+            // 
+            // pasteToolStripMenuItem
+            // 
+            this.pasteToolStripMenuItem.Name = "pasteToolStripMenuItem";
+            this.pasteToolStripMenuItem.Size = new System.Drawing.Size(102, 22);
+            this.pasteToolStripMenuItem.Text = "Paste";
+            this.pasteToolStripMenuItem.Click += new System.EventHandler(this.pasteToolStripMenuItem_Click);
+            // 
             // viewToolStripMenuItem
             // 
             this.viewToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -372,6 +412,20 @@
             this.viewToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
             this.viewToolStripMenuItem.Text = "View";
             // 
+            // standardToolStripMenuItem
+            // 
+            this.standardToolStripMenuItem.Name = "standardToolStripMenuItem";
+            this.standardToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.standardToolStripMenuItem.Text = "Standard";
+            this.standardToolStripMenuItem.Click += new System.EventHandler(this.standardToolStripMenuItem_Click);
+            // 
+            // digitGroupingToolStripMenuItem
+            // 
+            this.digitGroupingToolStripMenuItem.Name = "digitGroupingToolStripMenuItem";
+            this.digitGroupingToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.digitGroupingToolStripMenuItem.Text = "DigitGrouping";
+            this.digitGroupingToolStripMenuItem.Click += new System.EventHandler(this.digitGroupingToolStripMenuItem_Click);
+            // 
             // helpToolStripMenuItem
             // 
             this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -379,46 +433,45 @@
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
             this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
             this.helpToolStripMenuItem.Text = "Help";
-            // 
-            // copyToolStripMenuItem
-            // 
-            this.copyToolStripMenuItem.Name = "copyToolStripMenuItem";
-            this.copyToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.copyToolStripMenuItem.Text = "Copy";
-            // 
-            // pasteToolStripMenuItem
-            // 
-            this.pasteToolStripMenuItem.Name = "pasteToolStripMenuItem";
-            this.pasteToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.pasteToolStripMenuItem.Text = "Paste";
-            // 
-            // standardToolStripMenuItem
-            // 
-            this.standardToolStripMenuItem.Name = "standardToolStripMenuItem";
-            this.standardToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.standardToolStripMenuItem.Text = "Standard";
-            // 
-            // digitGroupingToolStripMenuItem
-            // 
-            this.digitGroupingToolStripMenuItem.Name = "digitGroupingToolStripMenuItem";
-            this.digitGroupingToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.digitGroupingToolStripMenuItem.Text = "DigitGrouping";
+            this.helpToolStripMenuItem.Click += new System.EventHandler(this.helpToolStripMenuItem_Click);
             // 
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
             this.aboutToolStripMenuItem.Text = "About";
+            this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
+            // 
+            // ParenthButton
+            // 
+            this.ParenthButton.Location = new System.Drawing.Point(234, 141);
+            this.ParenthButton.Name = "ParenthButton";
+            this.ParenthButton.Size = new System.Drawing.Size(16, 34);
+            this.ParenthButton.TabIndex = 30;
+            this.ParenthButton.Text = "(";
+            this.ParenthButton.UseVisualStyleBackColor = true;
+            this.ParenthButton.Click += new System.EventHandler(this.number_Click);
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(256, 141);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(16, 34);
+            this.button3.TabIndex = 31;
+            this.button3.Text = ")";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.number_Click);
             // 
             // TappinCalculator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.ParenthButton);
             this.Controls.Add(this.textResult);
             this.Controls.Add(this.BackspaceButton);
             this.Controls.Add(this.ClearEverythingButton);
-            this.Controls.Add(this.PercentageButton);
             this.Controls.Add(this.ReciprocalsButton);
             this.Controls.Add(this.ClearScreenButton);
             this.Controls.Add(this.SquareRootButton);
@@ -481,7 +534,6 @@
         private System.Windows.Forms.Button SquareRootButton;
         private System.Windows.Forms.Button ClearScreenButton;
         private System.Windows.Forms.Button ReciprocalsButton;
-        private System.Windows.Forms.Button PercentageButton;
         private System.Windows.Forms.Button ClearEverythingButton;
         private System.Windows.Forms.Button BackspaceButton;
         private System.Windows.Forms.TextBox textResult;
@@ -494,6 +546,8 @@
         private System.Windows.Forms.ToolStripMenuItem digitGroupingToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
+        private System.Windows.Forms.Button ParenthButton;
+        private System.Windows.Forms.Button button3;
     }
 }
 
