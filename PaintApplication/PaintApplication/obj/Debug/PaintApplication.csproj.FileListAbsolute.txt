@@ -1,0 +1,20 @@
+C:\Users\L\Documents\Visual Studio 2013\Projects\GUI\PaintApplication\PaintApplication\PaintApplication\obj\Debug\PaintApplication.csprojResolveAssemblyReference.cache
+C:\Users\L\Documents\Visual Studio 2013\Projects\GUI\PaintApplication\PaintApplication\PaintApplication\obj\Debug\PaintApplication.Form_main.resources
+C:\Users\L\Documents\Visual Studio 2013\Projects\GUI\PaintApplication\PaintApplication\PaintApplication\obj\Debug\PaintApplication.Properties.Resources.resources
+C:\Users\L\Documents\Visual Studio 2013\Projects\GUI\PaintApplication\PaintApplication\PaintApplication\obj\Debug\PaintApplication.Text_Form.resources
+C:\Users\L\Documents\Visual Studio 2013\Projects\GUI\PaintApplication\PaintApplication\PaintApplication\obj\Debug\PaintApplication.csproj.GenerateResource.Cache
+C:\Users\L\Documents\Visual Studio 2013\Projects\GUI\PaintApplication\PaintApplication\PaintApplication\bin\Debug\PaintApplication.exe.config
+C:\Users\L\Documents\Visual Studio 2013\Projects\GUI\PaintApplication\PaintApplication\PaintApplication\bin\Debug\PaintApplication.exe
+C:\Users\L\Documents\Visual Studio 2013\Projects\GUI\PaintApplication\PaintApplication\PaintApplication\bin\Debug\PaintApplication.pdb
+C:\Users\L\Documents\Visual Studio 2013\Projects\GUI\PaintApplication\PaintApplication\PaintApplication\obj\Debug\PaintApplication.exe
+C:\Users\L\Documents\Visual Studio 2013\Projects\GUI\PaintApplication\PaintApplication\PaintApplication\obj\Debug\PaintApplication.pdb
+O:\GUI\PaintApplication\PaintApplication\bin\Debug\PaintApplication.exe.config
+O:\GUI\PaintApplication\PaintApplication\obj\Debug\PaintApplication.exe
+O:\GUI\PaintApplication\PaintApplication\obj\Debug\PaintApplication.pdb
+O:\GUI\PaintApplication\PaintApplication\bin\Debug\PaintApplication.exe
+O:\GUI\PaintApplication\PaintApplication\bin\Debug\PaintApplication.pdb
+O:\GUI\PaintApplication\PaintApplication\obj\Debug\PaintApplication.csprojResolveAssemblyReference.cache
+O:\GUI\PaintApplication\PaintApplication\obj\Debug\PaintApplication.Form_main.resources
+O:\GUI\PaintApplication\PaintApplication\obj\Debug\PaintApplication.Properties.Resources.resources
+O:\GUI\PaintApplication\PaintApplication\obj\Debug\PaintApplication.Text_Form.resources
+O:\GUI\PaintApplication\PaintApplication\obj\Debug\PaintApplication.csproj.GenerateResource.Cache
