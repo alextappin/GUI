@@ -1,0 +1,20 @@
+﻿<Window x:Class="GuiClock.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid RenderTransformOrigin="0.516,0.48">
+        <Calendar HorizontalAlignment="Left" Margin="10,141,0,0" VerticalAlignment="Top" Width="170"/>
+        <Label x:Name="TimeLabel" Content="TimeHere" HorizontalAlignment="Left" Margin="69,37,0,0" VerticalAlignment="Top" Width="91" Height="38" Background="#FFEAEDFF"/>
+        <CheckBox x:Name="MilitaryTimeCheckBox" Content="MilitaryTime?" HorizontalAlignment="Left" Margin="143,80,0,0" VerticalAlignment="Top" Checked="MilitaryChecked" Unchecked="MilitaryUnchecked"/>
+        <Canvas x:Name="ClockCanvas" HorizontalAlignment="Left" Height="227" Margin="239,37,0,0" VerticalAlignment="Top" Width="229">
+            <Label x:Name="TopClockNumber" Content="Label" Canvas.Left="102" RenderTransformOrigin="0.447,0.5" Height="23" Width="31"/>
+            <Label x:Name="BottomClockNumber" Content="Label" Canvas.Left="105" Canvas.Top="204" RenderTransformOrigin="0.395,0.423" Width="28" Height="23"/>
+            <Label x:Name="RightClockNumber" Content="Label" Canvas.Left="206" Canvas.Top="100" Width="23"/>
+            <Label x:Name="LeftClockNumber" Content="Label" Canvas.Top="100" Width="23"/>
+        </Canvas>
+        
+        <CheckBox x:Name="UniversalTimeCheckBox" Content="UniversalTime?" Checked="UniversalTimeCheckBox_Checked" Unchecked="UniversalTimeCheckBox_Unchecked" Margin="0,80,397,211" RenderTransformOrigin="0.475,0.722"/>
+       
+
+    </Grid>
+</Window>

@@ -1,0 +1,11 @@
+O:\GUI\CalculatorAssignment\CalculatorAssignment\bin\Debug\CalculatorAssignment.exe.config
+O:\GUI\CalculatorAssignment\CalculatorAssignment\bin\Debug\CalculatorAssignment.exe
+O:\GUI\CalculatorAssignment\CalculatorAssignment\bin\Debug\CalculatorAssignment.pdb
+O:\GUI\CalculatorAssignment\CalculatorAssignment\obj\Debug\CalculatorAssignment.csprojResolveAssemblyReference.cache
+O:\GUI\CalculatorAssignment\CalculatorAssignment\obj\Debug\CalculatorAssignment.TappinCalculator.resources
+O:\GUI\CalculatorAssignment\CalculatorAssignment\obj\Debug\CalculatorAssignment.Properties.Resources.resources
+O:\GUI\CalculatorAssignment\CalculatorAssignment\obj\Debug\CalculatorAssignment.csproj.GenerateResource.Cache
+O:\GUI\CalculatorAssignment\CalculatorAssignment\obj\Debug\CalculatorAssignment.exe
+O:\GUI\CalculatorAssignment\CalculatorAssignment\obj\Debug\CalculatorAssignment.pdb
+O:\GUI\CalculatorAssignment\CalculatorAssignment\obj\Debug\Interop.MSScriptControl.dll
+O:\GUI\CalculatorAssignment\CalculatorAssignment\obj\Debug\CalculatorAssignment.csproj.ResolveComReference.cache

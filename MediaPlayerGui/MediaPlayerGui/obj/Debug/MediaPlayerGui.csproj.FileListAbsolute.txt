@@ -1,0 +1,17 @@
+O:\GUI\MediaPlayerGui\MediaPlayerGui\bin\Debug\MediaPlayerGui.exe.config
+O:\GUI\MediaPlayerGui\MediaPlayerGui\bin\Debug\MediaPlayerGui.exe
+O:\GUI\MediaPlayerGui\MediaPlayerGui\bin\Debug\MediaPlayerGui.pdb
+O:\GUI\MediaPlayerGui\MediaPlayerGui\obj\Debug\MediaPlayerGui.csprojResolveAssemblyReference.cache
+O:\GUI\MediaPlayerGui\MediaPlayerGui\obj\Debug\MainWindow.baml
+O:\GUI\MediaPlayerGui\MediaPlayerGui\obj\Debug\MainWindow.g.cs
+O:\GUI\MediaPlayerGui\MediaPlayerGui\obj\Debug\App.g.cs
+O:\GUI\MediaPlayerGui\MediaPlayerGui\obj\Debug\MediaPlayerGui_MarkupCompile.cache
+O:\GUI\MediaPlayerGui\MediaPlayerGui\obj\Debug\MediaPlayerGui.g.resources
+O:\GUI\MediaPlayerGui\MediaPlayerGui\obj\Debug\MediaPlayerGui.Properties.Resources.resources
+O:\GUI\MediaPlayerGui\MediaPlayerGui\obj\Debug\MediaPlayerGui.csproj.GenerateResource.Cache
+O:\GUI\MediaPlayerGui\MediaPlayerGui\obj\Debug\MediaPlayerGui.exe
+O:\GUI\MediaPlayerGui\MediaPlayerGui\obj\Debug\MediaPlayerGui.pdb
+O:\GUI\MediaPlayerGui\MediaPlayerGui\obj\Debug\GeneratedInternalTypeHelper.g.cs
+O:\GUI\MediaPlayerGui\MediaPlayerGui\obj\Debug\ColorControl.baml
+O:\GUI\MediaPlayerGui\MediaPlayerGui\obj\Debug\ColorControl.g.cs
+O:\GUI\MediaPlayerGui\MediaPlayerGui\obj\Debug\MediaPlayerGui_MarkupCompile.lref

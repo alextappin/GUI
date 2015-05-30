@@ -1,0 +1,13 @@
+O:\GUI\GuiClock\GuiClock\bin\Debug\GuiClock.exe.config
+O:\GUI\GuiClock\GuiClock\bin\Debug\GuiClock.exe
+O:\GUI\GuiClock\GuiClock\bin\Debug\GuiClock.pdb
+O:\GUI\GuiClock\GuiClock\obj\Debug\GuiClock.csprojResolveAssemblyReference.cache
+O:\GUI\GuiClock\GuiClock\obj\Debug\MainWindow.baml
+O:\GUI\GuiClock\GuiClock\obj\Debug\MainWindow.g.cs
+O:\GUI\GuiClock\GuiClock\obj\Debug\App.g.cs
+O:\GUI\GuiClock\GuiClock\obj\Debug\GuiClock_MarkupCompile.cache
+O:\GUI\GuiClock\GuiClock\obj\Debug\GuiClock.g.resources
+O:\GUI\GuiClock\GuiClock\obj\Debug\GuiClock.Properties.Resources.resources
+O:\GUI\GuiClock\GuiClock\obj\Debug\GuiClock.csproj.GenerateResource.Cache
+O:\GUI\GuiClock\GuiClock\obj\Debug\GuiClock.exe
+O:\GUI\GuiClock\GuiClock\obj\Debug\GuiClock.pdb
